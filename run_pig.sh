@@ -8,18 +8,19 @@ trap 'printf "\033[?25h"; clear; exit' INT TERM EXIT
 printf '\033[?25l'
 
 pig1='  ^-----^
- (  o o  )
-  (  Y  )
-   \(_)/
-   /| |\
-  / | | \'
+ (  o    o   )
+  (    Y    )
+   \(  _  )/
+   /  |  | \
+  /   |  | \'
 
 pig2='  ^-----^
- (  o o  )
-  (  Y  )
-   \(_)/
-    | |\
-   /|  \'
+ (  o    o   )
+  (    Y    )
+   \(  _  )/
+   /  |  | \
+  /   |  | \'
+
 
 while true; do
     cols=$(tput cols)
